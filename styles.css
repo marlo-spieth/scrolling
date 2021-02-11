@@ -1,0 +1,124 @@
+/*RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+body {
+line-height: 1.2em;
+font-size: 100%;
+}
+
+ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/*BACKGROUNDS- SCROLLING, FIXED */
+
+body {
+	height:100%;
+	background-color:black;
+}
+
+div {
+	width: 60%;
+	margin: 0 auto;
+	min-height: 50%;
+	line-height: 500px;
+}
+
+.fixed1 {  
+ 	padding:4%;
+	background: url(head_shot.png) no-repeat center center fixed;
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.fixed2{
+	padding:4%;
+	background: url(volcano.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.fixed3 {
+	padding:4%;
+	background: url(purp.png) no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.scroll {
+	background-color:black;
+	min-height: 40vh;
+}
+
+.textcontain {
+	width:60%;
+	line-height:200%;
+	padding:10%;
+}
+
+
+/*FONT TYPOGRAPHY AND OTHER BULLSHIT*/
+
+h1 {
+	font-size:550%;
+}
+
+body {
+	font-family: 'UnifrakturMaguntia', cursive;
+	color:white;
+	text-shadow:4px 4px 8px black;
+	text-align:center;
+}
+
+p{
+	font-family:sans-serf;
+	text-align: justify;
+	font-family: 'Roboto Mono', monospace;
+	font-size:120%;
+}
+
